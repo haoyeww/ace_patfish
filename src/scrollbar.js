@@ -94,7 +94,7 @@ class VScrollBar extends Scrollbar {
      * @returns {Number}
      **/
     getWidth() {
-        return Math.max(this.isVisible ? this.width : 0, this.$minWidth || 0);
+        return 1;
     }
 
     /**
